@@ -49,7 +49,6 @@ class Book {
                 year
             FROM books 
             ORDER BY title`);
-
     return booksRes.rows;
   }
 

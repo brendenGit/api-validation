@@ -16,7 +16,7 @@
     ],
     "properties": {
         "isbn": {
-            "type": "integer",
+            "type": "string",
             "default": "",
             "title": "The isbn Schema",
             "examples": [

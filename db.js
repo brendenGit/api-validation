@@ -2,13 +2,10 @@
 
 
 const { Client } = require("pg");
-const {DB_URI} = require("./config");
+const { dbConfig } = require("./config");
 
-let db = new Client({
-  connectionString: DB_URI
-});
+let db = new Client(dbConfig);
 
 db.connect();
-
 
 module.exports = db;
